@@ -1,0 +1,16 @@
+*{
+    color: white;
+}
+.more-books-container{
+    margin: 3rem;
+}
+.more-books{
+    margin: 1rem 0rem;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 3rem;
+}
+.books{
+    height: 100%;
+    width: 60%;
+}

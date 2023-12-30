@@ -1,0 +1,77 @@
+.header {
+  background-color: #292828;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-div,.search-div,.more-div{
+    display: flex;
+    align-items: center;
+}
+
+
+.logo-div>*,.search-div>*,.more-div>*{
+    margin-right: 1rem;
+}
+.keazon {
+  font-weight: 400;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+}
+.books {
+  color: #bebebe;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+svg{
+    cursor: pointer;
+}
+
+.search-div{
+    flex: 1;
+    justify-content: center;
+}
+.search-div>*{
+    padding: 0.75rem;
+}
+.search-div>input{
+    width: 60%;
+    background-color: #373737;
+    border: none;
+    color: white;
+}
+.search-div>svg{
+    width: 2.5rem;
+    padding: 8px;
+    margin: 0px;
+    background-color: #373737;
+    cursor:auto;
+}
+.search-btn{
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 0.6rem 2rem;
+    color: rgba(255, 255, 255, 0.50);
+    cursor: pointer;
+}
+
+.user-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0rem 0rem 0rem 1rem;
+    cursor: pointer;
+}
+
+.user-img {
+  border-radius: 250px;
+  margin-bottom: -2px;
+  border: 2px solid #c3bebe;
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+}
